@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './Home.dart';
+import 'home.dart';
 
 class DashBoard extends StatefulWidget {
   const DashBoard({super.key});
@@ -61,7 +61,7 @@ BottomNavigationBar _bottomTab() {
 
   List<Widget> _screen(){
     return const [
-      Home(),
+      home(),
       Text('Subscriptions'),
       Text('Library')
       ];
